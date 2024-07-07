@@ -1,0 +1,3 @@
+gradio
+kaggle
+google-api-python-client
