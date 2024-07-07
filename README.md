@@ -6,11 +6,31 @@ This work aims to apply a deep learning model to update images based on text inp
 
 ## Table of Contents
 
+- [Setup](#Setup)
 - [Features](#Features)
 - [Tools](#Tools)
 - [Screenshots](#Screenshots)
 - [Dataset](#Dataset)
 - [TeamMembers](#TeamMembers)
+
+## Features
+
+1. Deployment Setup
+
+- Install dependencies
+
+```bash
+python -m venv env
+.\env\Scripts\activate
+```
+
+- run code
+
+```bash
+python app.py
+```
+
+2. Dataset Generation Setup
 
 ## Features
 
@@ -20,9 +40,7 @@ This work aims to apply a deep learning model to update images based on text inp
   - Text CFG(Classifier free guidance): The effect of the text on the generated image, as it increases the change in the generated image increases.
   - Image CFG(Classifier free guidance): How much the generated image will be similar to the input image, as it increases the generated image will be similar to the input image.
   - Resolution: The quality and resolution of the generated image.
-- The Dataset generation code is provided in location /Dataset_Generation and it is splitted into 2 parts:
-  - Textual Dataset Generation: This part is responsible for the textual dataset generation process to obtain high-quality prompts that will be used to generate the images for the training dataset.
-  - Image Dataset Generation: A notebook that is responsible for generating the images in the dataset. The code provides the final shape of the dataset.
+- The Dataset generation code is provided in location /Dataset_Generation and you can specify the domain or the source of the generated dataset, we used products domain and scrapped the textual dataset from [unsplash](https://unsplash.com/)
 
 ## Tools
 
