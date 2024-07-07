@@ -25,6 +25,7 @@ python -m venv env
 ```
 
 #### Run
+
 1. First, you need to create a notebook on Kaggle and use the code in `pix2pix-model.ipynb`.
 
 2. Don't forget to modify the API keys for the Google Drive API to correctly download inputs and upload outputs so that the system works correctly.
@@ -35,7 +36,14 @@ python app.py
 ```
 
 ### Dataset Generation Setup
+use the same dependencies that were used in the Deployment Setup
+#### Run
 
+```bash
+python web_scrap.py
+python main.py
+```
+#### Run
 ## Features
 
 - the user can specify parameters that affect the output generation:
