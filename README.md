@@ -3,7 +3,7 @@
 ### [Deployment](https://huggingface.co/spaces/Graduation-Proect-Team/Text_Driven_Image_to_Image_Generation) | [Dataset](https://huggingface.co/datasets/Graduation-Proect-Team/Text-Driven-I2I-Generation-Dataset)
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/62d75c2b-f5db-4cf8-b8af-b2d2cb0dce31" width="100%" height="70%" align="center" />
+    <img src="https://github.com/user-attachments/assets/62d75c2b-f5db-4cf8-b8af-b2d2cb0dce31" width="100%" height="40%" align="center" />
 </p>
 
 This work aims to apply a deep learning model to update images based on text input. Users can upload an image and provide text instructions for modifications. The system interprets these instructions to update the image while maintaining high visual quality.
@@ -58,10 +58,6 @@ After generating the textual dateset use the code provided in `Image Dataset Gen
   - Resolution: The quality and resolution of the generated image.
 - The Dataset generation code is provided in `/Dataset_Generation` and you can specify the domain or the source of the generated dataset, we used the products domain and scrapped the textual dataset from [unsplash](https://unsplash.com/)
 
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/a0bee418-ed1e-4a00-b3f0-e5d7c545a974" width="100%" height="80%" align="center" />
-</p>
-
 ## Tools
 
 - Python
@@ -72,6 +68,15 @@ After generating the textual dateset use the code provided in `Image Dataset Gen
 - Kaggle API
 
 ## Screenshots
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/a0bee418-ed1e-4a00-b3f0-e5d7c545a974" width="90%" height="50%" align="center" />
+</p>
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/fc03fe2f-2f1d-4163-b7ad-1fee7dc9d248" width="90%" height="40%" align="center" />
+</p>
+
 
 ## Dataset
 
