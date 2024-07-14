@@ -2,7 +2,11 @@
 
 ### [Deployment](https://huggingface.co/spaces/Graduation-Proect-Team/Text_Driven_Image_to_Image_Generation) | [Dataset](https://huggingface.co/datasets/Graduation-Proect-Team/Text-Driven-I2I-Generation-Dataset)
 
-This work aims to apply a deep learning model to update images based on text input, essential for social media, advertising, and content creation. Users can upload an image and provide text instructions for modifications. The system interprets these instructions to update the image while maintaining high visual quality.
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/62d75c2b-f5db-4cf8-b8af-b2d2cb0dce31" width="100%" height="70%" align="center" />
+</p>
+
+This work aims to apply a deep learning model to update images based on text input. Users can upload an image and provide text instructions for modifications. The system interprets these instructions to update the image while maintaining high visual quality.
 
 ## Table of Contents
 
@@ -24,8 +28,6 @@ python -m venv env
 .\env\Scripts\activate
 ```
 
-#### Run
-
 1. First, you need to create a notebook on Kaggle and use the code in `pix2pix-model.ipynb`.
 
 2. Don't forget to modify the API keys for the Google Drive API to correctly download inputs and upload outputs so that the system works correctly.
@@ -37,13 +39,15 @@ python app.py
 
 ### Dataset Generation Setup
 use the same dependencies that were used in the Deployment Setup
-#### Run
+
+#### To collect and generate textual dataset run
 
 ```bash
 python web_scrap.py
 python main.py
 ```
-#### Run
+After generating the textual dateset use the code provided in `Image Dataset Generation.ipynb` to generate the image dataset.
+
 ## Features
 
 - the user can specify parameters that affect the output generation:
@@ -53,6 +57,10 @@ python main.py
   - Image CFG(Classifier free guidance): How much the generated image will be similar to the input image, as it increases the generated image will be similar to the input image.
   - Resolution: The quality and resolution of the generated image.
 - The Dataset generation code is provided in `/Dataset_Generation` and you can specify the domain or the source of the generated dataset, we used the products domain and scrapped the textual dataset from [unsplash](https://unsplash.com/)
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/a0bee418-ed1e-4a00-b3f0-e5d7c545a974" width="100%" height="80%" align="center" />
+</p>
 
 ## Tools
 
@@ -68,8 +76,8 @@ python main.py
 ## Dataset
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/83420413/171068520-cc285b9e-804a-4791-839f-bfcd26fac8d7.jpg" width="45%" height="100%" align="center" />
-    <img src="https://user-images.githubusercontent.com/83420413/171070813-bfd8b5f9-cc6b-4d07-bcd1-dc5d3de37a63.jpg" width="45%" height="100%" align="center"/>
+    <img src="https://github.com/user-attachments/assets/a8ef51dd-24a4-456e-be53-f7185cd67bc7" width="45%" height="100%" align="center" />
+    <img src="https://github.com/user-attachments/assets/f6114199-e02a-4704-b167-17e680927cca" width="50%" height="100%" align="center" />
 </p>
 
 ## TeamMembers
